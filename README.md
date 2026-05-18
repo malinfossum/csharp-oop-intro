@@ -4,6 +4,8 @@ Modul 3 of Emne 3 at Get Academy — introduction to object-oriented programming
 
 Single console project with a menu — each oppgave is its own entry class. Run the app, pick a number, see the exercise output.
 
+Each oppgave lives in its own numbered folder; all classes share the flat `CsharpOopIntro` namespace.
+
 ## Oppgaver
 
 | # | Entry class | Curriculum (NO) | What |
