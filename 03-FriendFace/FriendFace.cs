@@ -12,10 +12,10 @@ public class FriendFace
         var allUsers = new List<Profile>
         {
             new Profile(
-                "Malin", 30,
-                "Sosionom og blivende utvikler",
+                "Ingrid", 33,
+                "Journalist og podkast-vert",
                 "Oslo",
-                new List<string> { "kode", "klatring", "kaffe" }),
+                new List<string> { "politikk", "podcaster", "løping" }),
             new Profile(
                 "Anne", 28,
                 "Lærer i grunnskolen",
