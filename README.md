@@ -12,7 +12,7 @@ Each oppgave lives in its own numbered folder; all classes share the flat `Cshar
 |---|---|---|---|
 | 1 | `StudentAdministration` | Studentadministrasjon | Student, Subject and Grade classes; lists of subjects and grades per student; average grade and total credits. |
 | 2 | `OrganTransplant` | Organtransplantasjon | Patient, Donor and Kidney objects; pre-tested compatibility (`IsHealthy` + `IsCompatibleWith`). Scenario: Bernt receives a kidney from his cousin Kåre. |
-| 3 | `FriendFace` | Sosiale medier | Profile class with AddFriend, RemoveFriend, list friends, show profile. *(not yet implemented)* |
+| 3 | `FriendFace` | Sosiale medier | Profile class with friend list and personal info; `AddFriend` / `RemoveFriend` on `Profile` references. Logged-in user navigates a master list of 5 users via a console submenu. |
 | 4 | `Bossfight` | Bossfight | GameCharacter with Health, Strength, Stamina; Fight and Recharge loop. *(not yet implemented)* |
 
 ## Run
