@@ -12,8 +12,8 @@ public class FriendFace
         var allUsers = new List<Profile>
         {
             new Profile(
-                "Ingrid", 33,
-                "Journalist og podkast-vert",
+                "Hovedbruker", 33,
+                "Journalist og podcast-vert",
                 "Oslo",
                 new List<string> { "politikk", "podcaster", "løping" }),
             new Profile(
