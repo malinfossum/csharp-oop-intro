@@ -6,7 +6,7 @@ public class Bossfight
     public void Run()
     {
         var hero = new GameCharacter("Hero", health: 100, strength: 20, stamina: 40);
-        var enemy = new GameCharacter("Enemy", health: 400, minStrength: 0, maxStrength: 30, stamina: 10);
+        var enemy = new GameCharacter("Enemy", health: 400, minStrength: 0, maxStrength: 20, stamina: 10);
 
         Console.WriteLine($"{hero.Name} ({hero.Health} HP) vs {enemy.Name} ({enemy.Health} HP)");
         Console.WriteLine();
