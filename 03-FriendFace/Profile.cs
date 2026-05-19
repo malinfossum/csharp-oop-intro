@@ -3,10 +3,10 @@ namespace CsharpOopIntro;
 // Modul 3: Sosiale medier (FriendFace) — Profil
 public class Profile
 {
-    public string Name { get; set; }
-    public int Age { get; set; }
-    public string Bio { get; set; }
-    public string Location { get; set; }
+    public string Name { get; private set; }
+    public int Age { get; private set; }
+    public string Bio { get; private set; }
+    public string Location { get; private set; }
     public List<string> Interests { get; }
     public List<Profile> Friends { get; } = new();
 
@@ -39,6 +39,21 @@ public class Profile
         }
         Friends.Remove(friend);
         Console.WriteLine($"{friend.Name} er fjernet som venn.");
+    }
+
+    public void ListFriends()
+    {
+        if (Friends.Count == 0)
+        {
+            Console.WriteLine($"{Name} har ingen venner ennå.");
+            return;
+        }
+
+        Console.WriteLine($"{Name} har {Friends.Count} venn(er):");
+        for (int i = 0; i < Friends.Count; i++)
+        {
+            Console.WriteLine($"  {i + 1} - {Friends[i].Name}");
+        }
     }
 
     public void SkrivUtInfo()
